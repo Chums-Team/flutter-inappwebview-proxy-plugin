@@ -5,7 +5,7 @@ import 'package:flutter_inappwebview_proxy/inappwebview_proxy.dart';
 import 'package:flutter_inappwebview_proxy/inappwebview_proxy_utils.dart';
 
 class InappWebViewProxyAndroid extends InappWebViewProxy {
-  /// Registers this class as the default instance of [InappWebViewProxyPlatform].
+  /// Registers this class as the default instance of [InappWebViewProxy].
   static void registerWith() {
     InappWebViewProxy.instance = InappWebViewProxyAndroid();
   }
